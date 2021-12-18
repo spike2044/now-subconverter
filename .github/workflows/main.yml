@@ -117,7 +117,7 @@ jobs:
       if: ${{ env.branch == 'build' }}
       run: |
         cd /tmp
-        git clone https://github.com/tindy2013/subconverter.git
+        git clone https://github.com/spike2044/subconverter.git
     - name: '[build]Build'
       if: ${{ env.branch == 'build' }}
       run: docker run -v /tmp/subconverter:/root/workdir multiarch/alpine:amd64-latest-stable /bin/sh -c "apk add bash git nodejs npm && cd /root/workdir && chmod +x scripts/build.alpine.release.sh && bash scripts/build.alpine.release.sh"
