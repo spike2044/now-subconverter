@@ -1,3 +1,5 @@
 DOMAIN,mtalk.google.com
 DOMAIN,smtp.gmail.com
 DOMAIN,imap.gmail.com
+DOMAIN,smtp.yandex.com
+DOMAIN,imap.yandex.com
