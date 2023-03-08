@@ -10,3 +10,4 @@ DOMAIN,usage.readdle.com,Group // spark
 DOMAIN,api.amplitude.com,Group // spark
 DOMAIN,app.smartmailcloud.com,Group // spark
 imap-mail.outlook.com
+DOMAIN-SUFFIX,github.com
